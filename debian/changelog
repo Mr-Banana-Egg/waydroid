@@ -1,3 +1,14 @@
+waydroid (1.6.1) bullseye; urgency=medium
+
+  * Also consider block device files when checking for preinstalled images (#2136)
+  * http: Standardize file size and download speed units
+  * initializer: Move remote init process to a toplevel function
+  * initializer: Setup verbose logging in the remote init process
+  * tools: Restore early initialized check
+  * Upver to 1.6.1
+
+ -- Alessandro Astone <ales.astone@gmail.com>  Mon, 29 Dec 2025 18:03:56 +0100
+
 waydroid (1.6.0) bullseye; urgency=medium
 
   * prop: Enable the "ro.adb.secure" property (#1096)
