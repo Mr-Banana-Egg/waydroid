@@ -66,6 +66,8 @@ def generate_nodes_lxc_config(args):
         make_entry(n)
     for n in glob.glob("/dev/video*"):
         make_entry(n)
+    for n in glob.glob("/dev/media*"):
+        make_entry(n)
     for n in glob.glob("/dev/dma_heap/*"):
         make_entry(n)
 
