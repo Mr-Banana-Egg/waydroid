@@ -96,6 +96,7 @@ def set_permissions(args, perm_list=None, mode="777"):
         perm_list.extend(glob.glob("/dev/fb*"))
         # Videos
         perm_list.extend(glob.glob("/dev/video*"))
+        perm_list.extend(glob.glob("/dev/media*"))
         # DMA-BUF Heaps
         perm_list.extend(glob.glob("/dev/dma_heap/*"))
 
